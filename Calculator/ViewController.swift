@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func butonTapped(_ sender: UIButton) {
-        
+    
         switch sender.tag {
         case 0...9, 15: //0...9, .
             calculate(button: sender)
